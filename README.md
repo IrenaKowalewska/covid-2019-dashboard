@@ -1,6 +1,6 @@
 ## Task [RS School](https://rs.school/) Covid dashboard
 
-![]()
+![](https://github.com/IrenaKowalewska/covid-2019-dashboard/blob/main/src/img/covid-app.png)
 
 [Deploy Covid dashboard](https://irenakowalewska-covid-dashboard.netlify.app/) 
 
