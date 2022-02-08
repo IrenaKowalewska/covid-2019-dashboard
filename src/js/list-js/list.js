@@ -34,7 +34,7 @@ class CovidList {
         array.forEach(item => {
         this.tbody[n].innerHTML += `
             <tr>
-                <td><img src="https://www.countryflags.io/${item[1]}/flat/24.png"></td>
+                <td><img src="https://www.countryflags.io/${item[1]}/flat/24.png" onerror="this.onerror=null;this.src='https://st4.depositphotos.com/17828278/24401/v/600/depositphotos_244011872-stock-illustration-image-vector-symbol-missing-available.jpg';"></td>
                 <td class="target-country">${item[0]}</td>
                 <td class="${selectorName}">${this.prettyNumber(item[2])}</td>
             </tr>
